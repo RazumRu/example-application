@@ -1,0 +1,23 @@
+version: '3.8'
+
+networks:
+  example:
+
+volumes:
+  postgres:
+
+services:
+  postgres:
+    image: postgres:14.2
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - DATABASES=example
+    networks:
+      - example
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./.docker/postgres:/docker-entrypoint-initdb.d/

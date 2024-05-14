@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "lib": ["dom"],
+    "types": ["node", "cypress"],
+    "allowJs": true,
+    "importHelpers": true,
+    "baseUrl": "../",
+    "rootDir": "../",
+    "module": "commonjs",
+    "preserveValueImports": false
+  },
+  "include": ["e2e/**/*.ts",  "node_modules/cypress"],
+  "exclude": [ "tmp", "dist" ]
+}
