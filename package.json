@@ -30,13 +30,6 @@
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.8.0"
   },
-  "resolutions": {
-    "@packages/exceptions": "portal:/Users/sergejrazumovskij/Desktop/Projects/nodejs-universal-boilerplate-libs/packages/exceptions",
-    "@packages/logger": "portal:/Users/sergejrazumovskij/Desktop/Projects/nodejs-universal-boilerplate-libs/packages/logger",
-    "@packages/common": "portal:/Users/sergejrazumovskij/Desktop/Projects/nodejs-universal-boilerplate-libs/packages/common",
-    "@packages/http-server": "portal:/Users/sergejrazumovskij/Desktop/Projects/nodejs-universal-boilerplate-libs/packages/http-server",
-    "@packages/typeorm": "portal:/Users/sergejrazumovskij/Desktop/Projects/nodejs-universal-boilerplate-libs/packages/typeorm"
-  },
   "dependencies": {
     "@nestjs/common": "^10.3.8",
     "@nestjs/core": "^10.3.8",
